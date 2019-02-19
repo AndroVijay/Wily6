@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wily.TorchFragment"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dark"
+
+
+    android:weightSum="3"    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".35"
+
+        >
+
+        <ImageView
+            android:id="@+id/flashon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_light"
+            android:visibility="invisible"
+
+            />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/shadow"
+                android:paddingLeft="150dp"
+                android:paddingRight="150dp"
+                android:id="@+id/torchofbg"
+                android:layout_marginTop="120dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/torch"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp"
+                android:scaleType="fitXY"
+                android:id="@+id/torch"
+                android:layout_marginTop="120dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sos_off"
+                android:layout_alignTop="@+id/torch"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp"
+                android:scaleType="fitXY"
+                android:id="@+id/on_ofsos"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/off_strip"
+                android:layout_alignTop="@+id/torch"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="101dp"
+                android:paddingRight="100dp"
+                android:scaleType="fitXY"
+                android:id="@+id/on_ofstrep"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:id="@+id/relativeLayout">
+
+
+                <ToggleButton
+                    android:id="@+id/on_of_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+
+
+                    android:layout_marginTop="125dp"
+                    android:background="@android:color/transparent"
+
+                    android:layout_marginBottom="15dp"
+                    android:textOn=""
+                    android:textOff=""
+                    android:layout_centerInParent="true"
+                    android:rotation="90"
+                    android:longClickable="false"
+                    android:scrollHorizontally="true" />
+
+
+            </RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/activity_margin_top"
+
+    android:id="@+id/relativeLayout2">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:thumb="@drawable/sos_slider"
+        android:progressDrawable="@android:color/transparent"
+        android:rotation="180"
+        android:padding="10dp"
+        android:thumbOffset="10dp"
+        android:max="5"
+        android:progress="1"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+
+            <!--<SeekBar-->
+                <!--android:id="@+id/seekBar"-->
+                <!--style="@style/Widget.AppCompat.SeekBar.Discrete"-->
+                <!--android:layout_width="170dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="0dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:thumb="@drawable/sos_slider"-->
+                <!--android:progressDrawable="@android:color/transparent"-->
+                <!--android:rotation="180"-->
+                <!--android:padding="10dp"-->
+                <!--android:thumbOffset="10dp"-->
+                <!--android:max="5"-->
+                <!--android:progress="1"-->
+                <!--android:layout_alignTop="@+id/relativeLayout"-->
+                <!--android:layout_centerHorizontal="true" />-->
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.65"
+
+        android:id="@+id/adLayout">
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">Assistive Touch</string>
+    <string name="device_admin_explanation">Permission to lock your device remotely.</string>
+    <string name="admin_receiver_status_enabled">You can Lock Screen now.</string>
+    <string name="add_item">Add Item</string>
+    <string name="favourites">Favourites</string>
+    <string name="settings">Settings</string>
+    <string name="assistive_touch">Assistive Touch</string>
+    <string name="act_assistive_touch">Activate Assistive Touch</string>
+    <string name="at_color">Color</string>
+    <string name="at_icon">Icon</string>
+    <string name="at_panel1">Panel 1</string>
+    <string name="at_panel2">Panel 2</string>
+    <string name="background_color">Background Color</string>
+    <string name="icon">Icon</string>
+    <string name="select_action">Select Action</string>
+    <string name="none">None</string>
+    <string name="main_panel">Main Panel</string>
+    <string name="setting_panel">Setting Panel</string>
+    <string name="customize_at">Customize Assistive Touch</string>
+    
+    <!-- AT Actions -->
+    <string name="lock">Lock</string>
+    <string name="home">Home</string>
+    <string name="recents">Recents</string>
+    <string name="location">Location</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="airplane">Airplane</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="screen_rotate">Rotate Screen</string>
+    <string name="portrait">Portrait</string>
+    <string name="auto_rot">Auto-rotate</string>
+    <string name="landscape">Landscape</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="sound_mode">Sound Mode</string>
+    <string name="volume_up">Volume Up</string>
+    <string name="volume_down">Volume Down</string>
+    <string name="m_volume_up">Media Vol Up</string>
+    <string name="m_volume_down">Media Vol Down</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="normal">Ringer</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="silent">Silent</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.earntalktime.at.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/assistive_touch_background2"
+        android:clickable="true" >
+
+
+        <rationalheads.circlemenu.CircleLayout
+            android:id="@+id/items_grid1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            circle:isRotating="false"
+            >
+
+            <!--<include layout="@layout/menu_items" />-->
+        </rationalheads.circlemenu.CircleLayout>
+
+        <info.earntalktime.at.view.MyGridView
+            android:id="@+id/items_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"
+            android:visibility="gone"
+            android:listSelector="@android:color/transparent"
+            android:stretchMode="columnWidth"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/assistive_back"
+    android:layout_centerInParent="true"
+    android:src="@drawable/assistive_back"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</RelativeLayout>

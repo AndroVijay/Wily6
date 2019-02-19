@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_dark_grey">#414141</color>
+    <color name="at_icon_blue">#3E94E6</color>
+    
+<!--     ETT Colors -->
+
+
+    <color name="black">#000000</color>
+    <color name="list_item_title">#ffffff</color>
+    <color name="list_background">#303030</color>
+    <!-- <color name="list_header">#324e81</color> -->
+    <color name="list_header">#ff7700</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="button_color">#f345c1</color>
+    <color name="header_text_color">#FFFFFF</color>
+    <color name="balance_color">#ffa021</color>
+    <color name="bg_color">#17cdad</color>
+    <color name="red">#FF0000</color>
+    <color name="button_bg">#FF7701</color>
+
+    <!-- Colors for new Ui -->
+
+    <color name="theme_color">#F89C1C</color>
+    <color name="spinner_bg">#EBEBEB</color>
+    <color name="spinner_bg_pressed">#BDBDBD</color>
+    <color name="white_color">#EBEBEC</color>
+    <color name="main_header_color">#585857</color>
+    <color name="light_grey_color">#D8D8D7</color>
+    <color name="main_white">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="number_devider">#858485</color>
+    <color name="grey_bg">#EBEBEB</color>
+    <color name="dark_grey_text">#585857</color>
+    <color name="hint_color_feedback">#9A9A9A</color>
+    <color name="transparent_color_code">#555555</color>
+    <color name="divider_color">#cdcdcd</color>
+
+    <!-- LockScreenOffers Colors -->
+    <color name="trans_dark_grey">#90282828</color>
+
+    <bool name="default_circle_indicator_centered">true</bool>
+
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+
+    <integer name="default_circle_indicator_orientation">0</integer>
+
+    <dimen name="default_circle_indicator_radius">4dp</dimen>
+
+    <bool name="default_circle_indicator_snap">false</bool>
+
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <!-- Voucher Colors -->
+    <color name="v_dark_grey1">#3E3E3E</color>
+    <color name="v_dark_grey2">#717170</color>
+    <color name="icon_enabled">#FFD4D4D4</color>
+    <color name="icon_disabled">#FF282828</color>
+    <color name="color_1">#28a7f8</color>
+    <color name="color_2">#f24c3d</color>
+    <color name="color_3">#f2b05e</color>
+    <color name="color_4">#3f8c83</color>
+    <color name="color_5">#8c877d</color>
+    <color name="active_text_color">#6c6c6c</color>
+    <color name="deactive_text_color">#a7a7a7</color>
+
+    <!-- Utilities Colors -->
+    <color name="u_heading_color">#1F1F1F</color>
+    <color name="u_normal_text_color">#4F4F4F</color>
+
+    <!-- Data Usage Colors -->
+    <color name="wave_progress_border">#585856</color>
+    <color name="wave_progress_wave">#FAB148</color>
+    <color name="wave_progress_text">#2F3B29</color>
+    <color name="du_btn_bg">#199DA1</color>
+
+    <color name="flamingo_theme">#FF4041</color>
+    <color name="successful">#2AAA2F</color>
+    <color name="unsuccessful">#BC1623</color>
+
+    <color name="survey_title_color">#51BDE1</color>
+    <color name="survey_desc_color">#6E3185</color>
+    <color name="transparent_dark_grey_color">#80000000</color>
+    <color name="transparent_dark_orange_color">#80F89C1C</color>
+
+    
+</resources>

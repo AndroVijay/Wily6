@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_noti"
+    android:id="@+id/custom_noti"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wily_noti"
+        android:src="@drawable/noti_icon1"
+
+        android:layout_marginLeft="13dp"
+
+        android:layout_centerVertical="true"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/wily_noti"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true">
+
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/screenshot_noti"
+        android:src="@drawable/screenshot"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/screenshot_noti"
+        android:layout_centerVertical="true"
+        android:id="@+id/torch_noti"
+        android:src="@drawable/torch1"
+        android:layout_marginLeft="16dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/applock_noti"
+        android:layout_toRightOf="@id/torch_noti"
+        android:layout_centerVertical="true"
+        android:src="@drawable/applock_noti"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="16dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

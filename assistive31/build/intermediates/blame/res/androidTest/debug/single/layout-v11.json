@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\New folder\\Wily\\assistive31\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\PANDEY.DESKTOP-7UP0UTC\\.android\\build-cache\\b01ef712e3687993d110d5d4cf058bbfaff667e3\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\New folder\\Wily\\assistive31\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\PANDEY.DESKTOP-7UP0UTC\\.android\\build-cache\\b01ef712e3687993d110d5d4cf058bbfaff667e3\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\New folder\\Wily\\assistive31\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\PANDEY.DESKTOP-7UP0UTC\\.android\\build-cache\\b01ef712e3687993d110d5d4cf058bbfaff667e3\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\New folder\\Wily\\assistive31\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\PANDEY.DESKTOP-7UP0UTC\\.android\\build-cache\\b01ef712e3687993d110d5d4cf058bbfaff667e3\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\New folder\\Wily\\assistive31\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\PANDEY.DESKTOP-7UP0UTC\\.android\\build-cache\\b01ef712e3687993d110d5d4cf058bbfaff667e3\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\New folder\\Wily\\assistive31\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\PANDEY.DESKTOP-7UP0UTC\\.android\\build-cache\\b01ef712e3687993d110d5d4cf058bbfaff667e3\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    }
+]

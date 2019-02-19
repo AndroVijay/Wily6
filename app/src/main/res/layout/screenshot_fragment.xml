@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/screenshot_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/mobile"/>
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/lay"
+       android:background="@android:color/white">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="General"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/general_txt"
+           android:textColor="@android:color/holo_red_light"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:gravity="center_vertical"
+           android:id="@+id/lay_switch"
+           android:layout_marginLeft="20dp"
+           android:layout_below="@+id/general_txt">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/screenshot_icon"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:textColor="@android:color/black"
+               android:text="@string/enable_screenshot"/>
+
+
+           <Switch
+               android:id="@+id/switch1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="100dp"
+               android:background="@android:color/transparent"
+               android:drawableBottom="@android:color/transparent"
+               android:thumb="@android:color/transparent"
+
+
+
+               />
+
+
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+            android:layout_below="@+id/lay_switch"
+           android:background="@android:color/darker_gray"
+           android:id="@+id/view" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_marginLeft="20dp"
+           android:gravity="center_vertical"
+           android:id="@+id/view_text"
+           android:visibility="gone"
+           android:layout_below="@+id/lay_switch">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/screenshot_icon"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/view_screenshot"
+               android:layout_marginLeft="20dp"
+               android:text="@string/view_Screenshots"
+               android:textColor="@android:color/black"/>
+
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_below="@+id/view_text"
+           android:background="@android:color/darker_gray"
+           android:id="@+id/view1" />
+
+       <TextView
+           android:id="@+id/textView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/view"
+           android:layout_marginTop="20dp"
+           android:text="@string/text_kitkat"
+           android:textColor="@color/deactive"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:visibility="gone"/>
+   </RelativeLayout>
+
+</RelativeLayout>

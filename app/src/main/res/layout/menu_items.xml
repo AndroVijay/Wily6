@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <rationalheads.circlemenu.CircleImageView
+        android:id="@+id/main_calendar_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="2dp"/>
+       <!-- android:src="@drawable/ic_calendar"
+        circle:name="@string/calendar" />-->
+
+    <rationalheads.circlemenu.CircleImageView
+        android:id="@+id/main_cloud_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="2dp"
+       android:src="@drawable/assistive_lock"/>
+        circle:name="@string/cloud" />-->
+
+
+    <rationalheads.circlemenu.CircleImageView
+        android:id="@+id/main_mail_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="2dp"
+       android:src="@drawable/assistive_torch"/>
+        circle:name="@string/mail" />-->
+
+    <rationalheads.circlemenu.CircleImageView
+        android:id="@+id/main_key_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:src="@drawable/assistive_assistive_volume_up"
+        />
+        circle:name="@string/key" />-->
+
+    <rationalheads.circlemenu.CircleImageView
+        android:id="@+id/main_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="2dp"
+       android:src="@drawable/assistive_volume_low"/>
+        circle:name="@string/profile" />-->
+
+    <rationalheads.circlemenu.CircleImageView
+        android:id="@+id/main_tap_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="2dp"
+        android:src="@drawable/assistive_screenshot"/>
+        circle:name="@string/tag" />
+
+</merge>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:background="@drawable/splash_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/at_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/at_top"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+           <!-- <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/assistive_touch_background"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/assistive_touch"
+                    android:textColor="@color/u_heading_color"
+                    android:textSize="18sp" />
+            </LinearLayout>-->
+
+          <!--  <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/info" />
+            </LinearLayout>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/at_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/mpac_service_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="9"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/act_assistive_touch"
+                        android:textColor="@color/dark_grey_text"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/at_toggle"
+                    android:layout_width="34dp"
+                    android:layout_height="18.5dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/toggle_on" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/u_normal_text_color"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!-- <Button -->
+            <!-- android:id="@+id/customize" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="30dp" -->
+            <!-- android:layout_marginBottom="10dp" -->
+            <!-- android:background="@drawable/u_button_bg" -->
+            <!-- android:paddingBottom="5dp" -->
+            <!-- android:paddingLeft="20dp" -->
+            <!-- android:paddingRight="20dp" -->
+            <!-- android:paddingTop="5dp" -->
+            <!-- android:gravity="center" -->
+            <!-- android:text="Customize" -->
+            <!-- android:textAllCaps="false" -->
+            <!-- android:textColor="@color/white" /> -->
+
+            <include layout="@layout/activity_at_cutomize" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/shadow" />
+
+</LinearLayout>
